@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f5f7;
+  font-size: 16px;
+  color: #333;
+}
+
+.main {
+  width: 400px;
+  margin: 100px auto;
+}
+
+.title {
+  text-align: center;
+}
+.todo-add {
+  text-align: right;
+}
+
+.inputArea {
+  height: 70px;
+}
+
+.todo-add-text {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 4px;
+  padding: 5px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.text-empty {
+  display: none;
+}
+
+.todo-add-btn {
+  width: 150px;
+  height: 35px;
+  margin-bottom: 20px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 16px;
+}
+
+.todo-search-wrap {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.todo-search-icon {
+  margin-left: 10px;
+}
+
+.todo-search-text {
+  width: 350px;
+  height: 40px;
+  padding: 5px 10px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list-item {
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+}
+
+.todo-list-item:hover {
+  border: solid 1px #934e61;
+}
+
+.todo-list-item__todo {
+  background: white;
+}
+
+.todo-list-item__done {
+  background: #d8d8d8;
+  color: #888;
+}
+
+.todo-icon {
+  margin-right: 15px;
+}
+
+.fa-trash-alt {
+  float: right;
+  color: red;
+  font-size: 0.9em;
+}
+
+.sample-task {
+  margin-left: -6px;
+}
+
+.todo-list-edit {
+  display: none;
+  border: none;
+  width: 80%;
+  padding: 3px 4px;
+  font-size: 16px;
+}
